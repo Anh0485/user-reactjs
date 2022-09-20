@@ -13,14 +13,13 @@ import { handleLoginApi } from '../../services/userService';
 
 
 class Login extends Component {
-    // muốn viết một component, thì import component từ react
-    //constructor
-    constructor(props) { //hàm tạo, khi component trước khi chạy thì chạy vào constructor
+    
+
+    constructor(props) { 
         super(props);
-        //khai báo trạng thái
+        
         this.state = {
-            //tạo hai biến quản lí obj
-            //state luôn luôn obj
+           
             username: '',
             password: '',
             isShowPassword: false,
